@@ -1,0 +1,130 @@
+.body form {
+  display: flex;
+  width: 90%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+.main_container {
+  display: flex;
+  width: 100%;
+  height: 50%;
+  margin-left: 1rem;
+  margin-top: 1em;
+}
+.column_one,
+.column_two {
+  flex: 1;
+  /* height: 70%; */
+}
+
+/* .column_two {
+  flex: 1;
+  align-items: flex-end;
+  height: 60%;
+} */
+
+.input_field_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* height: 50%; */
+  align-items: flex-start;
+  color: #5a5a5a;
+  font-weight: bold;
+  height: 30%;
+}
+
+.input_field_div p:nth-child(1) {
+  font-size: 0.875rem;
+  height: 7%;
+}
+.errror_msg {
+  /* flex: 1; */
+  font-size: 0.6rem;
+  color: red;
+  /* height: 10%; */
+  margin-top: 0;
+}
+
+.input_field_div input {
+  border-radius: 4px;
+  outline: none;
+  border: 0.5px solid #908f8f;
+  padding: 0.5rem;
+  width: 80%;
+  height: 80%;
+}
+
+.input_field_div select {
+  border-radius: 4px;
+  outline: none;
+  border: 0.5px solid #908f8f;
+  padding: 0.5rem;
+  width: 85%;
+  height: 80%;
+  /* color: #c0c0c0; */
+}
+
+.footer {
+  flex: 10%;
+  /* border: 1px solid; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+}
+
+.footer button {
+  margin-right: 0.5rem;
+  width: 22%;
+  /* height: 50%; */
+  padding: 0.7rem 2rem;
+  border-radius: 21px;
+  outline: none;
+  border: none;
+}
+
+.footer button:nth-child(1) {
+  /* background: #ffffff; */
+  /* box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25); */
+  /* border: 0.5px solid #c3c3c3;
+  box-sizing: border-box;
+  border-radius: 21px;
+  color: #c3c3c3; */
+}
+
+.footer button:hover {
+  margin-right: 0.5rem;
+  width: 22%;
+  padding: 0.7rem 2rem;
+  background: #4d6994;
+  /* box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25); */
+  border: 0.5px solid #c3c3c3;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  border-radius: 21px;
+  color: #ffffff;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input::-webkit-input-placeholder {
+  color: #c0c0c0;
+  font-weight: normal;
+  font-size: 0.9em;
+}
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.uploadInputAvatar > p {
+  margin: 0;
+  color: #5a5a5a;
+  font-weight: 500;
+  margin-left: 1.5rem;
+}

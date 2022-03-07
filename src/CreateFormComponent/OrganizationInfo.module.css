@@ -1,0 +1,224 @@
+.App {
+  /* height: 100vh; */
+  /* width: 100vw; */
+  /* background-color: #f2f5f9; */
+  /* background-image: url("./bg.svg"); */
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  width: 50em;
+}
+
+.main_form_container {
+  /* height: clamp(700px, 85%, 800px);
+  width: clamp(700px, 40%, 800px); */
+
+  height: 40em;
+  width: 50em;
+
+  background: #ffffff;
+  /* box-shadow: 0px 0px 5px rgb(0 0 0 / 25%); */
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  /* padding: 1rem 2rem; */
+  /* margin-top: 5rem; */
+}
+
+.header {
+  /* border: 1px solid; */
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex: 10%;
+  /* align-items: center; */
+}
+
+.header div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  justify-content: space-around;
+}
+
+.header div:nth-child(1) span {
+  display: flex;
+}
+
+.header div:nth-child(1) span:nth-child(1) {
+  font-size: 1.5rem;
+  color: #214572;
+  font-weight: 500;
+}
+
+.header div:nth-child(1) span:nth-child(2) {
+  font-size: 0.8rem;
+  color: #6c6c6c;
+  font-weight: 400;
+  word-spacing: 2px;
+}
+.miniheader {
+  border-bottom: 1px solid #e7e7e7;
+  margin-left: 1.5em;
+}
+.miniheaderitem {
+  display: flex;
+  /* width: 20em; */
+  justify-content: flex-start;
+  /* padding-bottom: 1em; */
+  color: #5484c0;
+  margin-top: 2em;
+  background: #ffffff;
+  /* box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25); */
+}
+.miniheader span {
+  margin-right: 2em;
+  cursor: pointer;
+}
+
+.body {
+  flex: 80%;
+  /* border: 1px solid; */
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  height: 100%;
+  width: 100%;
+}
+
+.body form {
+  display: flex;
+  width: 90%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: start;
+}
+.main_container {
+  display: flex;
+  width: 100%;
+  height: 50%;
+  margin-left: 1.5rem;
+}
+.column_one,
+.column_two {
+  flex: 1;
+  /* height: 70%; */
+}
+
+/* .column_two {
+  flex: 1;
+  align-items: flex-end;
+  height: 60%;
+} */
+
+.input_field_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* height: 50%; */
+  align-items: flex-start;
+  color: #5a5a5a;
+  font-weight: bold;
+  height: 3.9em;
+  margin-bottom: 1em;
+}
+
+.input_field_div p:nth-child(1) {
+  font-size: 0.875rem;
+  height: 7%;
+  margin: 0 0 2em 0;
+}
+.errror_msg {
+  /* flex: 1; */
+  font-size: 0.6rem;
+  color: red;
+  /* height: 10%; */
+  margin-top: 0;
+}
+
+.input_field_div input {
+  border-radius: 4px;
+  outline: none;
+  border: 0.5px solid #908f8f;
+  padding: 0.5rem;
+  width: 80%;
+  height: 80%;
+}
+
+input::-webkit-input-placeholder {
+  color: #c0c0c0;
+  font-weight: normal;
+  font-size: 0.9em;
+}
+
+.input_field_div select {
+  border-radius: 4px;
+  outline: none;
+  border: 0.5px solid #908f8f;
+  padding: 0.5rem;
+  width: 85%;
+  height: 80%;
+  /* color: #c0c0c0; */
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  height: 3em;
+}
+
+.footer button {
+  margin-right: 0.5rem;
+  width: 22%;
+  /* height: 50%; */
+  padding: 0.7rem 2rem;
+  border-radius: 21px;
+  outline: none;
+  border: none;
+}
+
+.footer button:nth-child(1) {
+  /* background: #ffffff; */
+  /* box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25); */
+  /* border: 0.5px solid #c3c3c3;
+  box-sizing: border-box;
+  border-radius: 21px;
+  color: #c3c3c3; */
+}
+
+.footer button:hover {
+  margin-right: 0.5rem;
+  width: 22%;
+  padding: 0.7rem 2rem;
+  background: #4d6994;
+  /* box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25); */
+  border: 0.5px solid #c3c3c3;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  border-radius: 21px;
+  color: #ffffff;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.uploadInputAvatar > p {
+  margin: 0;
+  color: #5a5a5a;
+  font-weight: 500;
+  margin-left: 1.5rem;
+}
+.uploadInputAvatar {
+  margin-top: 1.5em;
+}

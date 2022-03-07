@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 0.7em 1.8em;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  min-width: 14rem;
+  width: 25vw;
+  height: min-content;
+}
+
+.file {
+  display: flex;
+  align-items: center;
+  gap: 0.1em;
+}
+
+.file > span {
+  color: #3f567e;
+  font-size: clamp(13px, 100%, 100%);
+  word-break: break-all;
+}
+
+.progress {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 1em;
+}
+
+.progress > div {
+  background-color: #e9edf9;
+  height: 0.5em;
+  border-radius: 1em;
+  width: 100%;
+  position: relative;
+}
+
+.tracker {
+  position: absolute;
+  height: 0.5em;
+  border-radius: 1em;
+  width: 0em;
+}
+
+.uploaded {
+  color: #bbc8f2;
+  font-size: clamp(12px, 90%, 90%);
+}
